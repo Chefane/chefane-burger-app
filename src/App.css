@@ -1,38 +1,124 @@
-.App {
+body {
+  background-image: url(burger.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; ;
+}
+
+.burgerContent {
+  width: 100%;
+  max-width: 700px;
+  display: table;
+  margin: 5% auto 0;
+  
+}
+
+.burgerIngridients {
+  height: 290px;
+  width: 100%;
+  overflow: auto;
+}
+.burgerIngridients p {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ingridientsBlock {
+  background-color: rgb(156, 147, 11);
+  margin: 30px auto 0;
+  display: table;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ingridientsBlock p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ingrBtns {
+  margin: 0 0 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.ingrBtn {
+  border: 0;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  display: table;
+  width: 95px;
+}
+button {
+  background-color: black ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topside {
+  background-image: url(top.jpg);
+  background-size: 300px;
+  height: 110px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+
+.bottomSide {
+  background-image: url(bottom.jpg);
+  background-size: 300px;
+  height: 60px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lettuceSide {
+  background-image: url(lettuce.jpg);
+  background-size: 300px;
+  height: 27px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tomatoSide {
+  background-image: url(tomato.jpg);
+  background-size: 300px;
+  height: 20px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cheeseSide {
+  background-image: url(cheese.jpg);
+  background-size: 300px;
+  height: 15px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.meatSide {
+  background-image: url(meat.jpg);
+  background-size: 300px;
+  height: 49px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
