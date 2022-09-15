@@ -1,0 +1,39 @@
+{"Leaner-Name": "Nosi  Chefane", 
+ "School-Name": "N.N. Ndebele Secondary School",
+ "Grade Achieved": "Bachelors",
+ "Year-Completed":"2017",
+ "Subjects-Passed":
+    {
+        "English": 
+        {
+          "Grade": "B"
+        },
+        "Economics": 
+        {
+          "Grade": "B"
+        },
+        "Business Studies": 
+        {
+          "Grade": "B"
+        },
+        "Accounting": 
+        {
+          "Grade": "C"
+        },
+        "Life-Orientation": 
+        {
+          "Grade": "C"
+        },
+        "Sesotho": 
+        {
+          "Grade": "A"
+        }
+    },
+"Subjects-Failed":{
+                    "Mathematics":{
+                        "Grade": "F"
+                    }
+                }
+  
+  
+    }
